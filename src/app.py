@@ -19,11 +19,9 @@ def retrieve_links():
 def insert_link(body: LinksBodyRequestSchema):
     return body
 
-
 @app.put('/links/{link_id}')
 def insert_link(body: LinksBodyRequestSchema, link_id: int):
     return link_id
-
 
 @app.delete('/links/{link_id}')
 def insert_link(link_id: int):
