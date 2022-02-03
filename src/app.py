@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from src.schemas.base_schema import LinksBodyRequestSchema, LinksQueryRequestSchema
+from src.schemas.base_schema import LinksBodyRequestSchema
 
 app = FastAPI()
 
